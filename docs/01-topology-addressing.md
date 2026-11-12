@@ -21,7 +21,7 @@
 
 
 ## Verification
-- Network Topology: ![Network topology](../images/Network-Topology.png)
+- Network Topology: ![network structure](../images/Network-Topology.png)
 
 - IP Interface Brief on R1: ![R1 Interfaces](../images/IP-interface-brief-R1.png)
 
