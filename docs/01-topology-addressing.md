@@ -22,7 +22,9 @@
 
 ## Verification
 - Network Topology: ![Network topology](../images/Network-Topology.png)
+
 - IP Interface Brief on R1: ![R1 Interfaces](../images/IP-interface-brief-R1.png)
+
 - IP Interface Brief on ISP: ![ISP Interfaces](../images/IP-interface-brief-ISP.png)
 
 
