@@ -12,9 +12,17 @@ Allow inside hosts of the internal network to reach the outside network through 
 
 
 ## Verification
-- PC1 to Outside-PC ping failed before PAT, and now it succeeeds: ![PC1 to outside-pc](../images/PC1-to-Outside.png)
-- PC2 to Outside-PC ping failed before PAT, and now it succeeeds: ![PC1 to outside-pc](../images/PC2-to-Outside.png)
-- Show ip nat translations and statistics showing functional PAT, with PCs sharing 203.0.113.2 address: ![Successful PAT](../images/Successful-PAT-Configuration.png)
+- PC1 to Outside-PC ping failed before PAT, and now it succeeeds: 
+
+![PC1 to outside-pc](../images/PC1-to-Outside.png)
+
+- PC2 to Outside-PC ping failed before PAT, and now it succeeeds: 
+
+![PC1 to outside-pc](../images/PC2-to-Outside.png)
+
+- Show ip nat translations and statistics showing functional PAT, with PCs sharing 203.0.113.2 address: 
+
+![Successful PAT](../images/Successful-PAT-Configuration.png)
 
 
 

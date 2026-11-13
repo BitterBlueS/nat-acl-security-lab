@@ -12,9 +12,13 @@ Expose the internal Web-Server (192.168.10.10) to outside hosts beyond the inter
 
 ## Verification
 - Outside-PC reaches the web server at 203.0.113.3:
+
 ![outside pc connectivity](../images/Outside-Reaches-Web.png)
+
 - IP nat translations output:
+
 ![show ip nat translations output](../images/IP-NAT-Translations-and-Statistics.png)
+
 - Outside-PC cannot reach 192.168.10.10 directly
 - PC1 still cannot reach the outside
 

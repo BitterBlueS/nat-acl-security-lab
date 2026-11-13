@@ -10,7 +10,9 @@
 
 
 ## Addressing PLan
-- Network Address Table: ![Addressing Plan](../images/Lab-Addressing-Table.png)
+- Network Address Table: 
+
+![Addressing Plan](../images/Lab-Addressing-Table.png)
 
 
 ## Design Notes
