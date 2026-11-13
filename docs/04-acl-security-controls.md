@@ -22,21 +22,21 @@
 ## Verification
 - Admin-PC SSH to R1 was allowed
 
-![blah](../images/Admin-SSH.png)
+![admin_ssh](../images/Admin-SSH.png)
 
 - PC1 SSH to R1 was denied
 
-![blah](../images/PC1-SSH.png)
+![pc1_ssh](../images/PC1-SSH.png)
 
 - Outside-PC SSH to R1 was denied
 
-![blah](../images/Outside-SSH.png)
+![outside_ssh](../images/Outside-SSH.png)
 
 - Outside-PC ping to 203.0.113.3 now denied under the current implementation of the ACL
 
-![blah](../images/Outside-Ping.png)
+![outside_ping](../images/Outside-Ping.png)
 
 - Active Access-Lists
 
-![blah](../images/Active-ACL.png)
+![active_acl](../images/Active-ACL.png)
 
