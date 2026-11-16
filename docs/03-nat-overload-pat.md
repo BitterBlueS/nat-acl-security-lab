@@ -24,10 +24,3 @@ Allow inside hosts of the internal network to reach the outside network through 
 
 ![Successful PAT](../images/Successful-PAT-Configuration.png)
 
-
-
-
-
-
-
-

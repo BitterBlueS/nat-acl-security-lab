@@ -22,7 +22,3 @@ Expose the internal Web-Server (192.168.10.10) to outside hosts beyond the inter
 - Outside-PC cannot reach 192.168.10.10 directly
 - PC1 still cannot reach the outside
 
-
-
-
-

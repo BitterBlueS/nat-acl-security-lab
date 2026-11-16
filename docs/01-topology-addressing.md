@@ -3,7 +3,7 @@
 
 ## Environment
 - Cisco Packet Tracer
--Two Cisco 2911 Integrated Services Routers: R1 (edge router performing NAT and ACL enforcement) and ISP (simulated internet router)
+- Two Cisco 2911 Integrated Services Routers: R1 (edge router performing NAT and ACL enforcement) and ISP (simulated internet router)
 - One Cisco Catalyst 2969 switch (SW1) connecting the inside network
 - Inside Hosts: two user PCs (PC1 and PC2), one admin PC (Admin-PC), and one web server (Web-Server)
 - One outside host (Outside-PC) beyond the ISP router, used to test NAT and ACL behavior from the 'internet' side of things

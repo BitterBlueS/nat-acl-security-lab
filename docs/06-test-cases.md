@@ -1,38 +1,31 @@
 # Test Cases
 
 
-## Approach
-A final set of regression runs against the completed configuration with NAT translations and ACL counters cleared beforehand. Each test covers allowed or denied flows tied to specific mechanisms
+## Final Approach
+Final Regression testing against the completed lab configuration focusing on IP Nat translationa and ACL counters, cleared beforehand. Each test covers an allowed or denied flow in the lab configuration and is tied to a relevant mechanism per the network topology
 
 
 ## Results
+- Test Case Matrix Results
 
-| # | Test | Expected | Result |
+![matrix_results](../images/Test-Case-Matrix.png)
 
-|---|---|---|---|
 
-| 1 | PC1 to Outside-PC ping | Allowed (PAT) | pass/fail |
+## Evidence
+- Test Case ACL Counters
 
-| 2 | PC2 to Outside-PC ping | Allowed (PAT, shared address) | |
+![acl_counters](../images/Test-Case-Counters.png)
 
-| 3 | Outside-PC to http://203.0.113.3 | Allowed (static NAT) | |
+- Test Case Translations
 
-| 4 | Admin-PC SSH to R1 | Allowed | |
+![ip_translations](../images/Test-Case-Translations.png)
 
-| 5 | Outside-PC to 192.168.10.10 | Denied (private address) | |
 
-| 6 | Outside-PC ping to 203.0.113.3 | Denied (rule 80) | |
-
-| 7 | Outside-PC SSH to R1 | Denied (rule 60) | |
-
-| 8 | Outside-PC Telnet to R1 | Denied (rule 70) | |
-
-| 9 | PC1 SSH to R1 | Denied (MGMT-ACCESS) | |
-
-| 10 | Outside-PC to PC1 | Denied (no translation ) | |
-
-## Verification
+## Observations
+- The ping for the web server's public address worked before the OUTSIDE-IN access list and is now denied afterward
+- Test cases did not diverge from their expected results
 
 
 ## Additional Notes
-
+- It helped to pull up the network address table outlined in doc  01 for the ping commands and attempting to ssh into the correct internal or external interface on R1
+- Needed to double check the documentation for the correct secret password I'd assigned to the admin account
