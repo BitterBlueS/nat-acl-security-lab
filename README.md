@@ -28,5 +28,6 @@ Build Documentation
 
 
 ### Status
-Complete
+Complete 
+WSL2 functioning
 
